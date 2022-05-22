@@ -75,7 +75,7 @@ The link is as follows https://hidden-forest-18849.herokuapp.com/
 5.  package.json
 
 
-## 🔗 Links
+## Links
 
 Github repo link --> https://github.com/00012670/todolist.git \
 Hosted link --> https://hidden-forest-18849.herokuapp.com
