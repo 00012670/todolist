@@ -34,7 +34,7 @@ If you have a nodemon package, run the next command
 nodemon
 ```
 
-Open <http://localhost:3000> to view it in the browser.
+Open <http://localhost:3000> to view it in the browser.//
 
 
 You have to install MongoDB on your computer to run the (to-do list) web application.
@@ -77,7 +77,7 @@ The link is as follows https://hidden-forest-18849.herokuapp.com/
 
 ## 🔗 Links
 
-Github repo link --> https://github.com/00012670/todolist.git
+Github repo link --> https://github.com/00012670/todolist.git/
 Hosted link --> https://hidden-forest-18849.herokuapp.com/
 
 ## License
