@@ -34,7 +34,7 @@ If you have a nodemon package, run the next command
 nodemon
 ```
 
-Open <http://localhost:3000> to view it in the browser. \
+Open <http://localhost:3000> to view it in the browser. 
 
 
 You have to install MongoDB on your computer to run the (to-do list) web application.
