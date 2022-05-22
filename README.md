@@ -4,7 +4,7 @@
 
 The web application is designed to create a to-do list. You can enter any sentence in the input field by clicking the "+" button. To create a new page with a different category of notes, you can type in the search box "<http://localhost:3000/anyword> ." Alternatively, you can delete the text by simply pressing the checkbox.
 
-\#The user interface allows you to:
+#The user interface allows you to:
 
 ##### 1- CREATE a page of any category,
 

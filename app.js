@@ -73,7 +73,7 @@ app.get("/", function(req, res) {
 
     } else {
       res.render("list", {
-        listTitle: "Today",
+        listTitle: "Note Taking App",
         newListItems: foundItems
       });
     }
@@ -121,7 +121,7 @@ app.post("/", function(req, res) {
     name: itemName
   });
 
-  if (listName === "Today") {
+  if (listName === "Note Taking App") {
     item.save();
     res.redirect("/");
   } else {
@@ -142,7 +142,7 @@ app.post("/delete", function(req, res) {
   const checkedItemId = req.body.checkbox;
   const listName = req.body.listName;
 
-  if (listName === "Today") {
+  if (listName === "Note Taking App") {
     Item.findByIdAndRemove(checkedItemId, function(err) {
       if (!err) {
         console.log("Deleted successfully checked item");
