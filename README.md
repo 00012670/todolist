@@ -12,6 +12,8 @@ The web application is designed to create a to-do list. You can enter any senten
 
 ##### 2- REMOVE note
 
+
+
 # Instructions on how to run the app locally
 
 Before starting project, first you should install npm packages.
@@ -34,6 +36,15 @@ nodemon
 
 Open <http://localhost:3000> to view it in the browser.
 
+
+You have to install MongoDB on your computer to run the (to-do list) web application.
+
+If you can't install MongoDB, you can use hosted link, which is stated below.
+
+The link is as follows https://hidden-forest-18849.herokuapp.com/
+
+
+
 ## Application dependencies’ list
 
 "body-parser": "^1.20.0",
@@ -45,6 +56,8 @@ Open <http://localhost:3000> to view it in the browser.
 "lodash": "^4.17.21",
 
 "mongoose": "^6.3.4"
+
+
 
 ## Architecture of the project
 
@@ -60,3 +73,13 @@ Open <http://localhost:3000> to view it in the browser.
 3.  app.js
 4.  date.js
 5.  package.json
+
+
+## 🔗 Links
+
+Github repo link --> https://github.com/00012670/todolist.git
+Hosted link --> https://hidden-forest-18849.herokuapp.com/
+
+## License
+
+[ISC](https://choosealicense.com/licenses/ISC/)
