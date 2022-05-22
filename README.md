@@ -2,7 +2,15 @@
 
 # Description
 
-The web application is designed to create a to-do list. You can enter any sentence in the input field and press the "+" button to add it to the to-do list.
+The web application is designed to create a to-do list. You can enter any sentence in the input field by clicking the "+" button. To create a new page with a different category of notes, you can type in the search box "<http://localhost:3000/anyword> ." Alternatively, you can delete the text by simply pressing the checkbox.
+
+\#The user interface allows you to:
+
+##### 1- CREATE a page of any category,
+
+##### 1- CREATE note,
+
+##### 2- REMOVE note
 
 # Instructions on how to run the app locally
 
@@ -17,33 +25,38 @@ Then, to start project run following command
 ```bash
 node app.js
 ```
+
 If you have a nodemon package, run the next command
 
 ```bash
-nodemon server
+nodemon
 ```
 
-Open http://localhost:3000 to view it in the browser.
-
+Open <http://localhost:3000> to view it in the browser.
 
 ## Application dependencies’ list
 
-Express
-Ejs
-Nodemon
-Body-parser
+"body-parser": "^1.20.0",
+
+"ejs": "^3.1.8",
+
+"express": "^4.18.1",
+
+"lodash": "^4.17.21",
+
+"mongoose": "^6.3.4"
 
 ## Architecture of the project
 
-1. public
+1.  public
     /css
-      - styles.css
-2. views
+    -   styles.css
+2.  views
     /include
-      - footer.ejs
-      - header.ejs
-    - about.ejs
-    - list.ejs
-3. app.js
-4. date.js
-5. package.json
+    -   footer.ejs
+    -   header.ejs
+    -   about.ejs
+    -   list.ejs
+3.  app.js
+4.  date.js
+5.  package.json
